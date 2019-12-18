@@ -12,7 +12,7 @@ board1 = [
     [0, 4, 9, 2, 0, 6, 0, 0, 7]
 ]
 
-# Hardest Sudoku in the World. Source: https://www.oe24.at/welt/Das-ist-das-schwierigste-Sudoku-der-Welt/1597831
+# Hardest Sudoku in the world. Source: https://www.oe24.at/welt/Das-ist-das-schwierigste-Sudoku-der-Welt/1597831
 board2 = [
     [0, 0, 5, 3, 0, 0, 0, 0, 0],
     [8, 0, 0, 0, 0, 0, 0, 2, 0],
@@ -93,7 +93,11 @@ def solve(board):
     return False
 
 
-print_board(board2)
-solve(board2)
-print("____________________________________________________________________________")
-print_board(board2)
+def start(board):
+    print_board(board2)
+    solve(board2)
+    print("____________________________________________________________________________")
+    print_board(board2)
+
+
+start(board1)
