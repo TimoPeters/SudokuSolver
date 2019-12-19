@@ -104,6 +104,7 @@ def solve(board):
 
     return False
 
+
 # Start the solver
 def start(board):
     print_board(board)
@@ -112,4 +113,4 @@ def start(board):
     print_board(board)
 
 
-start(board1)
+start(board2)
