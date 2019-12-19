@@ -112,4 +112,4 @@ def start(board):
     print_board(board)
 
 
-start(board2)
+start(board1)
