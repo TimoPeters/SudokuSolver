@@ -104,7 +104,7 @@ def solve(board):
 
     return False
 
-
+# Start the solver
 def start(board):
     print_board(board)
     solve(board)
