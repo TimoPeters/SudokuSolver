@@ -1,3 +1,18 @@
+# Created by Timo Peters
+# Date: 25.02.2020
+
+# This programm solves every Sudoku puzzle. It uses a simple recursive backtracking algorithm.
+# A Sudoku board is represented by a 2 dimensional array
+# Call the start method and give it the board you want to solve as parameter (start(<Board>)) (fE start(board2))
+# The origin board will be printed first and the solved version a few seconds later
+# (depending on how complex the puzzle is)
+
+# Sudoku rules:
+# A Sudoku puzzle finds place on a 9x9 board with just some spaces containing a number from 1-9
+# The players job is it to fill all the empty spaces
+# Each row, column and 3x3 box must only contain each number from 1-9 once
+# Once there are no empty spaces and there are no invalid numbers the puzzle is solved
+
 # Represents a 9x9 Sudoku board
 # 0 stands for an empty space
 board1 = [
