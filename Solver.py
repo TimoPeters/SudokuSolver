@@ -128,4 +128,5 @@ def start(board):
     print_board(board)
 
 
-start(board2)
+#start(board2)
+print("Du Noob")
